@@ -1,0 +1,200 @@
+[
+  {
+    "row": 1,
+    "claim": "CL1",
+    "case_id": "A-01",
+    "expected_behaviour": "Complete six-condition assessment; undetermined with individual/contextual limits retained.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "Contextual support is not automatically transferred to the individual claim. O03 preserves the r002/r003 tension. Nine unique issues remain; none becomes a contrary chain by default.",
+    "evidence": "execution/A-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 2,
+    "claim": "CL2",
+    "case_id": "A-01",
+    "expected_behaviour": "Reconstruction possible from recorded grounds and snapshot.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Independent reconstruction pending",
+    "observation": "A-01 preserves the snapshot and 129 trace edges; the presence of links alone does not satisfy the human reconstruction criterion.",
+    "evidence": "execution/A-01.assessment.json",
+    "independent_review": "pending"
+  },
+  {
+    "row": 3,
+    "claim": "CL3-a",
+    "case_id": "A-01",
+    "expected_behaviour": "Documentary r002/r003 tension retained without automatic compensation.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "Contextual support is not automatically transferred to the individual claim. O03 preserves the r002/r003 tension. Nine unique issues remain; none becomes a contrary chain by default.",
+    "evidence": "execution/A-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 4,
+    "claim": "CL1",
+    "case_id": "B-00",
+    "expected_behaviour": "Favourably supported under stipulated complete synthetic grounds.",
+    "observed_conclusion": "favourably_supported",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "Synthetic case with stipulated grounds and review. All six conditions are supported; the conclusion depends on these input judgments.",
+    "evidence": "execution/B-00.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 5,
+    "claim": "CL3-b",
+    "case_id": "O-01",
+    "expected_behaviour": "Directed objection retained; favourable chain not established.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "OBJ targets IC. D02 and D04 are not established; D06 remains supported. Opposition does not automatically imply missing information.",
+    "evidence": "execution/O-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 6,
+    "claim": "CL3-c",
+    "case_id": "R-01",
+    "expected_behaviour": "Applicable binding violated restriction supports independent unfavourable chain.",
+    "observed_conclusion": "unfavourably_supported",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "RULE is declared applicable, binding, and violated. WB and WX enable EXCLUDING-CONSTRAINT-1. Its authority is hypothetical, not an empirically established domain prohibition.",
+    "evidence": "execution/R-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 7,
+    "claim": "CL3-c",
+    "case_id": "R-02",
+    "expected_behaviour": "Violation blocks favourability but no negative chain without defended exclusion warrant.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Matching conclusion; incomplete explanation",
+    "observation": "Removing WX leaves D05 contradicted, but no contrary chain is constructed. The absence of WX is visible as a null value in the snapshot; a specific explanation of why U is not constructed is missing.",
+    "evidence": "execution/R-02.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 8,
+    "claim": "CL3-d",
+    "case_id": "M-01",
+    "expected_behaviour": "Absent required evidence limits D01 and D06 without becoming contrary evidence.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "E remains an existing object whose information is now absent. An informational issue is generated; shared dependencies leave D01, D02, and D06 not established. This is not a broken-reference error.",
+    "evidence": "execution/M-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 9,
+    "claim": "CL3-e",
+    "case_id": "U-01",
+    "expected_behaviour": "Available uncertain consequence remains distinct from absence; support unstable.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "C is available but uncertain. Stipulated alternatives differ in support. An uncertainty issue, rather than missing_information, is generated; D02 and D06 are not established.",
+    "evidence": "execution/U-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 10,
+    "claim": "CL3-e",
+    "case_id": "U-02",
+    "expected_behaviour": "Uncertainty retained without automatic blocking when examined alternatives retain support.",
+    "observed_conclusion": "favourably_supported",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "Uncertainty is preserved. Both supplied alternatives support the premise; D06 is supported relative to these alternatives, without claiming exhaustive coverage.",
+    "evidence": "execution/U-02.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 11,
+    "claim": "CL4",
+    "case_id": "S-01",
+    "expected_behaviour": "Additional evidence appears in need grounds; favourable conclusion may remain unchanged.",
+    "observed_conclusion": "favourably_supported",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "E2 is added to IN and appears in the grounds and trace of D01; the favourable conclusion remains unchanged. No probabilistic strength or quantitative increase in support is calculated.",
+    "evidence": "execution/S-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 12,
+    "claim": "CL4",
+    "case_id": "O-02",
+    "expected_behaviour": "Directed supported response changes opposition grounds and permits favourable chain.",
+    "observed_conclusion": "favourably_supported",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "ANS contains a directed response and stipulated acceptance. OBJ is retained: resolution_supported distinguishes treatment from deletion.",
+    "evidence": "execution/O-02.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 13,
+    "claim": "CL4",
+    "case_id": "S-02",
+    "expected_behaviour": "Unfavourable consequence generates opposing reason and tension blocks favourability.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "COST and WCOST generate an opposing reason. TEN blocks D04. The cost is not arithmetically aggregated with the benefit and does not by itself produce an unfavourable conclusion.",
+    "evidence": "execution/S-02.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 14,
+    "claim": "CL4",
+    "case_id": "P-01",
+    "expected_behaviour": "Priority declaration does not resolve tension; conclusion unchanged.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "PRI adds a declared and applicable priority without W-P. The tension remains open and the conclusion remains undetermined.",
+    "evidence": "execution/P-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 15,
+    "claim": "CL4",
+    "case_id": "P-02",
+    "expected_behaviour": "Explicit local precedence warrant and accepted directed response allow tension treatment.",
+    "observed_conclusion": "favourably_supported",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "W-P, its limit, and a directed response with stipulated acceptance allow TEN to be addressed. This does not establish legitimate precedence in a real-world case.",
+    "evidence": "execution/P-02.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 16,
+    "claim": "CL4",
+    "case_id": "M-01",
+    "expected_behaviour": "Missing required evidence changes grounds and may change conclusion.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "E remains an existing object whose information is now absent. An informational issue is generated; shared dependencies leave D01, D02, and D06 not established. This is not a broken-reference error.",
+    "evidence": "execution/M-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 17,
+    "claim": "CL4",
+    "case_id": "U-01",
+    "expected_behaviour": "Uncertain available consequence changes limits and support analysis.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Observed computational behaviour within the curated scope",
+    "observation": "C is available but uncertain. Stipulated alternatives differ in support. An uncertainty issue, rather than missing_information, is generated; D02 and D06 are not established.",
+    "evidence": "execution/U-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  },
+  {
+    "row": 18,
+    "claim": "CL5",
+    "case_id": "A-01",
+    "expected_behaviour": "Same semantic assessment and reasoning trace across repeats.",
+    "observed_conclusion": "undetermined",
+    "interpretation": "Matching outputs observed in two processes within the same environment",
+    "observation": "Identical canonical JSON; other environments and evaluator agreement were not examined.",
+    "evidence": "execution/A-01.assessment.json",
+    "independent_review": "not performed; internal analysis only"
+  }
+]

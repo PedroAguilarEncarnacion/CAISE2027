@@ -1,0 +1,58 @@
+{
+  "status": "pending",
+  "reviewer": null,
+  "role": null,
+  "prior_exposure": null,
+  "initial_review_saved_before_reveal": null,
+  "conditions": [
+    {
+      "condition": "D01",
+      "reconstructed_state": null,
+      "grounds_ids": [],
+      "explanation": null,
+      "hidden_information_required": null
+    },
+    {
+      "condition": "D02",
+      "reconstructed_state": null,
+      "grounds_ids": [],
+      "explanation": null,
+      "hidden_information_required": null
+    },
+    {
+      "condition": "D03",
+      "reconstructed_state": null,
+      "grounds_ids": [],
+      "explanation": null,
+      "hidden_information_required": null
+    },
+    {
+      "condition": "D04",
+      "reconstructed_state": null,
+      "grounds_ids": [],
+      "explanation": null,
+      "hidden_information_required": null
+    },
+    {
+      "condition": "D05",
+      "reconstructed_state": null,
+      "grounds_ids": [],
+      "explanation": null,
+      "hidden_information_required": null
+    },
+    {
+      "condition": "D06",
+      "reconstructed_state": null,
+      "grounds_ids": [],
+      "explanation": null,
+      "hidden_information_required": null
+    }
+  ],
+  "favourable_chain": null,
+  "independent_contrary_chain": null,
+  "reconstructed_conclusion": null,
+  "unreconstructible_steps": [],
+  "assumptions_added": [],
+  "differences_after_reveal": [],
+  "follow_up_changes": []
+}

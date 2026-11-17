@@ -1,0 +1,168 @@
+{
+  "status": "pending",
+  "instructions": "An independent evaluator receives assessment snapshots, trace, declared methods and engine procedure, but not expected conclusions. Reconstruct each condition and conclusion. Record undocumented steps and separate software defects, specification gaps and insufficient foundation. Record reviewer identity and actual review; never fabricate agreement.",
+  "records": [
+    {
+      "claim": "CL1",
+      "case_id": "A-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL2",
+      "case_id": "A-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-a",
+      "case_id": "A-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL1",
+      "case_id": "B-00",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-b",
+      "case_id": "O-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-c",
+      "case_id": "R-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-c",
+      "case_id": "R-02",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-d",
+      "case_id": "M-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-e",
+      "case_id": "U-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL3-e",
+      "case_id": "U-02",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "S-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "O-02",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "S-02",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "P-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "P-02",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "M-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL4",
+      "case_id": "U-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    },
+    {
+      "claim": "CL5",
+      "case_id": "A-01",
+      "reviewer": null,
+      "reconstructed_conclusion": null,
+      "missing_steps": null,
+      "discrepancy_type": null,
+      "assessment": "pending"
+    }
+  ]
+}

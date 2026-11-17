@@ -1,0 +1,825 @@
+{
+  "processing_status": "completed",
+  "engine_version": "2.0",
+  "criterion": "SC1.1",
+  "assessment_id": "ASSESS:1bdfd8272babc878",
+  "input_sha256": "1bdfd8272babc878cfa63c905a0625053057a29a1fb0dd8bde8903c8cc96ec35",
+  "claim": {
+    "id": "J-SYN",
+    "version": "1",
+    "level": "contextual",
+    "need": "N",
+    "candidate": "I",
+    "context": "S",
+    "reference": "Q",
+    "horizon": "Hypothetical task interval only",
+    "actor": "Hypothetical learner",
+    "coverage": "Declared hypothetical task and autonomy objectives; no real participant observations"
+  },
+  "conclusion": "undetermined",
+  "chains": {
+    "favourable": false,
+    "unfavourable": false,
+    "contrary_arguments": []
+  },
+  "conditions": [
+    {
+      "condition": "D01",
+      "state": "supported",
+      "grounds": [
+        "E",
+        "IN",
+        "N",
+        "S",
+        "SRC",
+        "WN"
+      ],
+      "checks": [
+        {
+          "requirement": "Explicit typed chain within claim scope",
+          "met": true,
+          "explanation": "Need/candidate links, evidence, warrant, scope and premise information are checked; substantive warrants remain curated judgments."
+        }
+      ],
+      "issue_ids": [],
+      "blocking_issue_ids": [],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D02",
+      "state": "not_established",
+      "grounds": [
+        "C",
+        "E",
+        "I",
+        "IC",
+        "N",
+        "Q",
+        "S",
+        "SRC",
+        "WR"
+      ],
+      "checks": [
+        {
+          "requirement": "Explicit typed chain within claim scope",
+          "met": true,
+          "explanation": "Need/candidate links, evidence, warrant, scope and premise information are checked; substantive warrants remain curated judgments."
+        }
+      ],
+      "issue_ids": [
+        "OBJ"
+      ],
+      "blocking_issue_ids": [
+        "OBJ"
+      ],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D03",
+      "state": "supported",
+      "grounds": [
+        "C",
+        "COV",
+        "WR"
+      ],
+      "checks": [
+        {
+          "requirement": "Known consequence relevance documented",
+          "met": true,
+          "explanation": "Actor, objective, horizon and relevance warrant retained."
+        },
+        {
+          "requirement": "Coverage declared",
+          "met": true,
+          "explanation": "No claim of complete consequences."
+        }
+      ],
+      "issue_ids": [],
+      "blocking_issue_ids": [],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D04",
+      "state": "not_established",
+      "grounds": [
+        "GEN:REASON:WR",
+        "OBJ",
+        "REV"
+      ],
+      "checks": [
+        {
+          "requirement": "Opposition review recorded",
+          "met": true,
+          "explanation": "Open directed decisive issues block support; responses need directed grounds, not a status label."
+        }
+      ],
+      "issue_ids": [
+        "OBJ"
+      ],
+      "blocking_issue_ids": [
+        "OBJ"
+      ],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D05",
+      "state": "supported",
+      "grounds": [
+        "COV"
+      ],
+      "checks": [
+        {
+          "requirement": "Constraint coverage explicit",
+          "met": true,
+          "explanation": "Empty list alone does not establish absence."
+        },
+        {
+          "requirement": "Applicable constraints resolved",
+          "met": true,
+          "explanation": "Unknown binding/applicability/compliance is not established; defended violation contradicts compliance."
+        }
+      ],
+      "issue_ids": [],
+      "blocking_issue_ids": [],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D06",
+      "state": "supported",
+      "grounds": [
+        "COV"
+      ],
+      "checks": [
+        {
+          "requirement": "Information limitations reviewed",
+          "met": true,
+          "explanation": "Declared scope and curated plausible-alternatives analysis retained."
+        }
+      ],
+      "issue_ids": [],
+      "blocking_issue_ids": [],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    }
+  ],
+  "reasons": [
+    {
+      "id": "GEN:REASON:WR",
+      "version": "2.0",
+      "kind": "reason",
+      "content": "Reason reconstructed from supplied consequence and relevance warrant.",
+      "refs": [
+        "C",
+        "WR"
+      ],
+      "direction": "supporting",
+      "method_origin": "engine-2.0"
+    }
+  ],
+  "issues": [
+    {
+      "id": "OBJ",
+      "version": "1",
+      "kind": "objection",
+      "content": "Synthetic objection to candidate contribution.",
+      "refs": [
+        "IC"
+      ],
+      "affects": [
+        "D02",
+        "D04"
+      ],
+      "method": "M",
+      "status": "open",
+      "decisive": true,
+      "resolution_supported": false
+    }
+  ],
+  "priorities": [],
+  "constraints": [],
+  "trace": [
+    {
+      "from": "C",
+      "to": "E",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C",
+      "to": "I",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C",
+      "to": "Q",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C",
+      "to": "S",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "COV",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "COV",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "E",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "IN",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "N",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "S",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "SRC",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "WN",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "C",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "E",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "I",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "IC",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "N",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "OBJ",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "Q",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "S",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "SRC",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "WR",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "C",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "COV",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "WR",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "GEN:REASON:WR",
+      "relation": "examines",
+      "target_version": "2.0"
+    },
+    {
+      "from": "D04",
+      "to": "OBJ",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "REV",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D05",
+      "to": "COV",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "COV",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "E",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "GEN:REASON:WR",
+      "to": "C",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "GEN:REASON:WR",
+      "to": "WR",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "I",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IC",
+      "to": "C",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IC",
+      "to": "I",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IC",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IC",
+      "to": "N",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IC",
+      "to": "S",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IC",
+      "to": "WR",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN",
+      "to": "E",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN",
+      "to": "N",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN",
+      "to": "S",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN",
+      "to": "WN",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "J-SYN",
+      "to": "D01",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-SYN",
+      "to": "D02",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-SYN",
+      "to": "D03",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-SYN",
+      "to": "D04",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-SYN",
+      "to": "D05",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-SYN",
+      "to": "D06",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "M",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "N",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "OBJ",
+      "to": "IC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "OBJ",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "Q",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REV",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REV",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "S",
+      "to": "SRC",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "WN",
+      "to": "E",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "WN",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "WN",
+      "to": "N",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "WR",
+      "to": "C",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "WR",
+      "to": "M",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "WR",
+      "to": "N",
+      "relation": "depends_on",
+      "target_version": "1"
+    }
+  ],
+  "snapshot": {
+    "input": {
+      "schema_version": "2.0",
+      "case_id": "O-01",
+      "origin": "synthetic",
+      "criterion": "SC1.1",
+      "claim": {
+        "id": "J-SYN",
+        "version": "1",
+        "level": "contextual",
+        "need": "N",
+        "candidate": "I",
+        "context": "S",
+        "reference": "Q",
+        "horizon": "Hypothetical task interval only",
+        "actor": "Hypothetical learner",
+        "coverage": "Declared hypothetical task and autonomy objectives; no real participant observations"
+      },
+      "nodes": [
+        {
+          "id": "SRC",
+          "version": "1",
+          "kind": "source",
+          "content": "Synthetic design assumption; no empirical study claimed.",
+          "refs": []
+        },
+        {
+          "id": "M",
+          "version": "1",
+          "kind": "method",
+          "content": "Researcher-curated qualitative judgments, recorded before execution.",
+          "refs": [
+            "SRC"
+          ]
+        },
+        {
+          "id": "N",
+          "version": "1",
+          "kind": "need",
+          "content": "Anticipated need for explanatory support in a hypothetical next programming step.",
+          "refs": [
+            "SRC"
+          ]
+        },
+        {
+          "id": "S",
+          "version": "1",
+          "kind": "context",
+          "content": "Hypothetical task boundary and declared task objective.",
+          "refs": [
+            "SRC"
+          ]
+        },
+        {
+          "id": "I",
+          "version": "1",
+          "kind": "intervention",
+          "content": "Optional explanatory panel, evaluated as one candidate.",
+          "refs": [
+            "SRC"
+          ]
+        },
+        {
+          "id": "Q",
+          "version": "1",
+          "kind": "reference",
+          "content": "Same task without explanatory panel.",
+          "refs": [
+            "SRC"
+          ]
+        },
+        {
+          "id": "E",
+          "version": "1",
+          "kind": "evidence",
+          "content": "Stipulated observation supports anticipated difficulty.",
+          "refs": [
+            "SRC"
+          ],
+          "information_state": "available",
+          "scope": "contextual",
+          "epistemic_status": "assumed"
+        },
+        {
+          "id": "WN",
+          "version": "1",
+          "kind": "warrant",
+          "content": "Under this synthetic scenario the observation supports the stated need.",
+          "refs": [
+            "E",
+            "N"
+          ],
+          "method": "M",
+          "scope": "contextual"
+        },
+        {
+          "id": "IN",
+          "version": "1",
+          "kind": "inference",
+          "content": "Explicit observation-to-need inference.",
+          "refs": [
+            "E",
+            "WN",
+            "N",
+            "S"
+          ],
+          "role": "need_support",
+          "method": "M",
+          "scope": "contextual"
+        },
+        {
+          "id": "C",
+          "version": "1",
+          "kind": "consequence",
+          "content": "Stipulated improvement in understanding the next task step.",
+          "refs": [
+            "I",
+            "S",
+            "Q",
+            "E"
+          ],
+          "actor": "Hypothetical learner",
+          "objective": "Understand next step",
+          "horizon": "Hypothetical task interval only",
+          "scope": "contextual",
+          "information_state": "available",
+          "epistemic_status": "assumed",
+          "method": "M"
+        },
+        {
+          "id": "WR",
+          "version": "1",
+          "kind": "relevance_warrant",
+          "content": "Understanding supports the declared task objective.",
+          "refs": [
+            "C",
+            "N"
+          ],
+          "method": "M",
+          "scope": "contextual",
+          "direction": "supporting"
+        },
+        {
+          "id": "IC",
+          "version": "1",
+          "kind": "inference",
+          "content": "Candidate properties plausibly support this need through the stated consequence.",
+          "refs": [
+            "I",
+            "S",
+            "N",
+            "C",
+            "WR"
+          ],
+          "role": "candidate_contribution",
+          "scope": "contextual",
+          "method": "M"
+        },
+        {
+          "id": "COV",
+          "version": "1",
+          "kind": "coverage",
+          "content": "Only declared hypothetical dimensions examined; no binding restriction adopted in this scope.",
+          "refs": [
+            "SRC"
+          ],
+          "method": "M",
+          "constraint_search": "none_adopted",
+          "limitations_review": "documented"
+        },
+        {
+          "id": "REV",
+          "version": "1",
+          "kind": "review",
+          "content": "No open opposition identified in declared hypothetical scope.",
+          "refs": [
+            "SRC"
+          ],
+          "role": "opposition_review",
+          "method": "M"
+        },
+        {
+          "id": "OBJ",
+          "version": "1",
+          "kind": "objection",
+          "content": "Synthetic objection to candidate contribution.",
+          "refs": [
+            "IC"
+          ],
+          "affects": [
+            "D02",
+            "D04"
+          ],
+          "method": "M",
+          "status": "open",
+          "decisive": true
+        }
+      ],
+      "disclosures": [
+        "All synthetic values, goals and warrants are researcher stipulations for procedural examination.",
+        "No empirical conclusion about programming students follows from these cases."
+      ],
+      "change": "Add one directed objection to candidate contribution."
+    },
+    "generated_objects": [],
+    "methods_used": [
+      {
+        "id": "M",
+        "version": "1",
+        "kind": "method",
+        "content": "Researcher-curated qualitative judgments, recorded before execution.",
+        "refs": [
+          "SRC"
+        ]
+      },
+      {
+        "id": "CURATED-RELATIONAL-RECONSTRUCTION-2.0",
+        "version": "2.0",
+        "content": "Implementation design operationalization, not a validated domain inference method."
+      }
+    ]
+  },
+  "limitations": [
+    "All synthetic values, goals and warrants are researcher stipulations for procedural examination.",
+    "No empirical conclusion about programming students follows from these cases.",
+    "Substantive warrants, relevance, criticality, accepted responses and plausible-alternative judgments are supplied by the researcher. Structural checks do not validate their adequacy.",
+    "No operational action is produced. Independent reconstruction and domain sufficiency remain to be examined."
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "2.0",
+  "case_id": "S-02",
+  "origin": "synthetic",
+  "criterion": "SC1.1",
+  "claim": {
+    "id": "J-SYN",
+    "version": "1",
+    "level": "contextual",
+    "need": "N",
+    "candidate": "I",
+    "context": "S",
+    "reference": "Q",
+    "horizon": "Hypothetical task interval only",
+    "actor": "Hypothetical learner",
+    "coverage": "Declared hypothetical task and autonomy objectives; no real participant observations"
+  },
+  "nodes": [
+    {
+      "id": "SRC",
+      "version": "1",
+      "kind": "source",
+      "content": "Synthetic design assumption; no empirical study claimed.",
+      "refs": []
+    },
+    {
+      "id": "M",
+      "version": "1",
+      "kind": "method",
+      "content": "Researcher-curated qualitative judgments, recorded before execution.",
+      "refs": [
+        "SRC"
+      ]
+    },
+    {
+      "id": "N",
+      "version": "1",
+      "kind": "need",
+      "content": "Anticipated need for explanatory support in a hypothetical next programming step.",
+      "refs": [
+        "SRC"
+      ]
+    },
+    {
+      "id": "S",
+      "version": "1",
+      "kind": "context",
+      "content": "Hypothetical task boundary and declared task objective.",
+      "refs": [
+        "SRC"
+      ]
+    },
+    {
+      "id": "I",
+      "version": "1",
+      "kind": "intervention",
+      "content": "Optional explanatory panel, evaluated as one candidate.",
+      "refs": [
+        "SRC"
+      ]
+    },
+    {
+      "id": "Q",
+      "version": "1",
+      "kind": "reference",
+      "content": "Same task without explanatory panel.",
+      "refs": [
+        "SRC"
+      ]
+    },
+    {
+      "id": "E",
+      "version": "1",
+      "kind": "evidence",
+      "content": "Stipulated observation supports anticipated difficulty.",
+      "refs": [
+        "SRC"
+      ],
+      "information_state": "available",
+      "scope": "contextual",
+      "epistemic_status": "assumed"
+    },
+    {
+      "id": "WN",
+      "version": "1",
+      "kind": "warrant",
+      "content": "Under this synthetic scenario the observation supports the stated need.",
+      "refs": [
+        "E",
+        "N"
+      ],
+      "method": "M",
+      "scope": "contextual"
+    },
+    {
+      "id": "IN",
+      "version": "1",
+      "kind": "inference",
+      "content": "Explicit observation-to-need inference.",
+      "refs": [
+        "E",
+        "WN",
+        "N",
+        "S"
+      ],
+      "role": "need_support",
+      "method": "M",
+      "scope": "contextual"
+    },
+    {
+      "id": "C",
+      "version": "1",
+      "kind": "consequence",
+      "content": "Stipulated improvement in understanding the next task step.",
+      "refs": [
+        "I",
+        "S",
+        "Q",
+        "E"
+      ],
+      "actor": "Hypothetical learner",
+      "objective": "Understand next step",
+      "horizon": "Hypothetical task interval only",
+      "scope": "contextual",
+      "information_state": "available",
+      "epistemic_status": "assumed",
+      "method": "M"
+    },
+    {
+      "id": "WR",
+      "version": "1",
+      "kind": "relevance_warrant",
+      "content": "Understanding supports the declared task objective.",
+      "refs": [
+        "C",
+        "N"
+      ],
+      "method": "M",
+      "scope": "contextual",
+      "direction": "supporting"
+    },
+    {
+      "id": "IC",
+      "version": "1",
+      "kind": "inference",
+      "content": "Candidate properties plausibly support this need through the stated consequence.",
+      "refs": [
+        "I",
+        "S",
+        "N",
+        "C",
+        "WR"
+      ],
+      "role": "candidate_contribution",
+      "scope": "contextual",
+      "method": "M"
+    },
+    {
+      "id": "COV",
+      "version": "1",
+      "kind": "coverage",
+      "content": "Only declared hypothetical dimensions examined; no binding restriction adopted in this scope.",
+      "refs": [
+        "SRC"
+      ],
+      "method": "M",
+      "constraint_search": "none_adopted",
+      "limitations_review": "documented"
+    },
+    {
+      "id": "REV",
+      "version": "1",
+      "kind": "review",
+      "content": "No open opposition identified in declared hypothetical scope.",
+      "refs": [
+        "SRC"
+      ],
+      "role": "opposition_review",
+      "method": "M"
+    },
+    {
+      "id": "COST",
+      "version": "1",
+      "kind": "consequence",
+      "content": "Stipulated loss of learner control.",
+      "refs": [
+        "I",
+        "S",
+        "Q"
+      ],
+      "actor": "Hypothetical learner",
+      "objective": "Retain control",
+      "scope": "contextual",
+      "information_state": "available",
+      "method": "M",
+      "epistemic_status": "assumed",
+      "horizon": "Hypothetical task interval only"
+    },
+    {
+      "id": "WCOST",
+      "version": "1",
+      "kind": "relevance_warrant",
+      "content": "Control is a declared legitimate objective.",
+      "refs": [
+        "COST",
+        "SRC"
+      ],
+      "direction": "opposing",
+      "method": "M",
+      "scope": "contextual"
+    },
+    {
+      "id": "TEN",
+      "version": "1",
+      "kind": "tension",
+      "content": "No compensation warrant stipulated.",
+      "refs": [
+        "WR",
+        "WCOST"
+      ],
+      "affects": [
+        "D04"
+      ],
+      "method": "M",
+      "status": "open",
+      "decisive": true
+    }
+  ],
+  "disclosures": [
+    "All synthetic values, goals and warrants are researcher stipulations for procedural examination.",
+    "No empirical conclusion about programming students follows from these cases."
+  ],
+  "change": "Add unfavourable consequence and unresolved tension."
+}

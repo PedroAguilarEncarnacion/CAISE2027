@@ -1,0 +1,111 @@
+{
+  "purpose": "Language-edition equivalence check, not a new independent model evaluation",
+  "engine_byte_identical": true,
+  "case_checks": [
+    {
+      "case_id": "A-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "94c93d4f5c56d7fb0b643d918dd2e13fe059522605b22bfe5885839ff9e8e164",
+      "english_input_sha256": "69599c6a5e7208217b1213d61f37ee63b2900a8c56aec2adac87468de4074025"
+    },
+    {
+      "case_id": "B-00",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "7f4acd28efd6427215a1428c62e63ec533581b548ddc9b1236854e925bcdde38",
+      "english_input_sha256": "7f4acd28efd6427215a1428c62e63ec533581b548ddc9b1236854e925bcdde38"
+    },
+    {
+      "case_id": "M-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "453b74017ddba2f3b2b4fbd74169b032eeebf434c73c9665d61732d154dbcc7c",
+      "english_input_sha256": "453b74017ddba2f3b2b4fbd74169b032eeebf434c73c9665d61732d154dbcc7c"
+    },
+    {
+      "case_id": "O-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "1bdfd8272babc878cfa63c905a0625053057a29a1fb0dd8bde8903c8cc96ec35",
+      "english_input_sha256": "1bdfd8272babc878cfa63c905a0625053057a29a1fb0dd8bde8903c8cc96ec35"
+    },
+    {
+      "case_id": "O-02",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "8c77c6846b5bf690f6cdd432821364c8afdbe13a06dc6fd1c09b119d4f28fc22",
+      "english_input_sha256": "8c77c6846b5bf690f6cdd432821364c8afdbe13a06dc6fd1c09b119d4f28fc22"
+    },
+    {
+      "case_id": "P-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "1c6ca7d44033efab23a59461597209cb063f19b73403db125033480b00e53ec8",
+      "english_input_sha256": "1c6ca7d44033efab23a59461597209cb063f19b73403db125033480b00e53ec8"
+    },
+    {
+      "case_id": "P-02",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "ded5f296b591d516a30c014f315af1ceefa39401490629fb99ac727e98d06a88",
+      "english_input_sha256": "ded5f296b591d516a30c014f315af1ceefa39401490629fb99ac727e98d06a88"
+    },
+    {
+      "case_id": "R-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "31215233fc3ad4114103cc39224975fb3c63acbc2166a59e0fcf0b266424b48d",
+      "english_input_sha256": "31215233fc3ad4114103cc39224975fb3c63acbc2166a59e0fcf0b266424b48d"
+    },
+    {
+      "case_id": "R-02",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "2441d6cc333ae21a41ceadd4aa5fe383d4dec786157a66829d991a6e785e3f47",
+      "english_input_sha256": "2441d6cc333ae21a41ceadd4aa5fe383d4dec786157a66829d991a6e785e3f47"
+    },
+    {
+      "case_id": "S-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "45938f6d69f32b13ced33b9b5800c7ea403e85369bc706ec5a26654450d2a0d8",
+      "english_input_sha256": "45938f6d69f32b13ced33b9b5800c7ea403e85369bc706ec5a26654450d2a0d8"
+    },
+    {
+      "case_id": "S-02",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "8987282eac4a1d0526f17ae7c0ff21d85454b7fa9ad732e42f360be20062c8f8",
+      "english_input_sha256": "8987282eac4a1d0526f17ae7c0ff21d85454b7fa9ad732e42f360be20062c8f8"
+    },
+    {
+      "case_id": "U-01",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "e11c0d327486f51def9cae804c648b4dfa394795a9c08ebfff642b5f00ac501f",
+      "english_input_sha256": "e11c0d327486f51def9cae804c648b4dfa394795a9c08ebfff642b5f00ac501f"
+    },
+    {
+      "case_id": "U-02",
+      "condition_states_match": true,
+      "conclusion_matches": true,
+      "grounds_issues_chains_and_trace_match": true,
+      "historical_input_sha256": "921c812f1aa982f69e6bbabd9667e4ea7873f0d4b94d21d9356a16a5b2ed58a7",
+      "english_input_sha256": "921c812f1aa982f69e6bbabd9667e4ea7873f0d4b94d21d9356a16a5b2ed58a7"
+    }
+  ],
+  "separate_process_repetitions_match": true
+}

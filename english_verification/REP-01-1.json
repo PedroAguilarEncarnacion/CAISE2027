@@ -1,0 +1,1763 @@
+{
+  "processing_status": "completed",
+  "engine_version": "2.0",
+  "criterion": "SC1.1",
+  "assessment_id": "ASSESS:69599c6a5e720821",
+  "input_sha256": "69599c6a5e7208217b1213d61f37ee63b2900a8c56aec2adac87468de4074025",
+  "claim": {
+    "id": "J-A01",
+    "version": "1",
+    "level": "individual",
+    "need": "N-A01",
+    "candidate": "I-A01",
+    "context": "S-A01",
+    "reference": "Q-A01",
+    "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied.",
+    "content": "Justification of the candidate for an individual episode, reconstructed from contextual experimental findings.",
+    "level_decision": "Explicit iteration-1 choice: individual claim, retaining the documented contextual/individual ambiguity rather than silently generalizing.",
+    "coverage": "Known documented consequences, not exhaustive",
+    "actor": "Participant role; no individual record"
+  },
+  "conclusion": "undetermined",
+  "chains": {
+    "favourable": false,
+    "unfavourable": false,
+    "contrary_arguments": []
+  },
+  "conditions": [
+    {
+      "condition": "D01",
+      "state": "not_established",
+      "grounds": [
+        "E01",
+        "E03",
+        "E04",
+        "E10",
+        "IN01",
+        "N-A01",
+        "S-A01",
+        "SRC-DORNEICH"
+      ],
+      "checks": [
+        {
+          "requirement": "Explicit typed chain within claim scope",
+          "met": false,
+          "explanation": "Need/candidate links, evidence, warrant, scope and premise information are checked; substantive warrants remain curated judgments."
+        }
+      ],
+      "issue_ids": [
+        "G01",
+        "O01"
+      ],
+      "blocking_issue_ids": [
+        "G01",
+        "O01"
+      ],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D02",
+      "state": "not_established",
+      "grounds": [
+        "E03",
+        "E05",
+        "E06",
+        "E10",
+        "I-A01",
+        "IN02",
+        "N-A01",
+        "S-A01",
+        "SRC-DORNEICH"
+      ],
+      "checks": [
+        {
+          "requirement": "Explicit typed chain within claim scope",
+          "met": false,
+          "explanation": "Need/candidate links, evidence, warrant, scope and premise information are checked; substantive warrants remain curated judgments."
+        }
+      ],
+      "issue_ids": [
+        "G02",
+        "O02"
+      ],
+      "blocking_issue_ids": [
+        "G02"
+      ],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D03",
+      "state": "supported",
+      "grounds": [
+        "C-ACCURACY",
+        "C-SA",
+        "COVERAGE",
+        "W-C4+",
+        "W-C4-"
+      ],
+      "checks": [
+        {
+          "requirement": "Known consequence relevance documented",
+          "met": true,
+          "explanation": "Actor, objective, horizon and relevance warrant retained."
+        },
+        {
+          "requirement": "Coverage declared",
+          "met": true,
+          "explanation": "No claim of complete consequences."
+        }
+      ],
+      "issue_ids": [],
+      "blocking_issue_ids": [],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D04",
+      "state": "not_established",
+      "grounds": [
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05",
+        "P-A01",
+        "REVIEW-A",
+        "r002",
+        "r003",
+        "r006"
+      ],
+      "checks": [
+        {
+          "requirement": "Opposition review recorded",
+          "met": true,
+          "explanation": "Open directed decisive issues block support; responses need directed grounds, not a status label."
+        }
+      ],
+      "issue_ids": [
+        "G03",
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "blocking_issue_ids": [
+        "G03",
+        "O01",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D05",
+      "state": "supported",
+      "grounds": [
+        "COVERAGE"
+      ],
+      "checks": [
+        {
+          "requirement": "Constraint coverage explicit",
+          "met": true,
+          "explanation": "Empty list alone does not establish absence."
+        },
+        {
+          "requirement": "Applicable constraints resolved",
+          "met": true,
+          "explanation": "Unknown binding/applicability/compliance is not established; defended violation contradicts compliance."
+        }
+      ],
+      "issue_ids": [],
+      "blocking_issue_ids": [],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    },
+    {
+      "condition": "D06",
+      "state": "not_established",
+      "grounds": [
+        "COVERAGE",
+        "G01",
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "checks": [
+        {
+          "requirement": "Information limitations reviewed",
+          "met": true,
+          "explanation": "Declared scope and curated plausible-alternatives analysis retained."
+        }
+      ],
+      "issue_ids": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "blocking_issue_ids": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "method": "CURATED-RELATIONAL-RECONSTRUCTION-2.0"
+    }
+  ],
+  "reasons": [
+    {
+      "id": "r002",
+      "kind": "reason",
+      "version": "1",
+      "direction": "supporting",
+      "refs": [
+        "C-ACCURACY",
+        "W-C4+"
+      ],
+      "content": "A locally relevant accuracy benefit."
+    },
+    {
+      "id": "r003",
+      "kind": "reason",
+      "version": "1",
+      "direction": "opposing",
+      "refs": [
+        "C-SA",
+        "W-C4-"
+      ],
+      "content": "A locally relevant situational-awareness cost."
+    },
+    {
+      "id": "r006",
+      "kind": "reason",
+      "version": "1",
+      "direction": "limiting",
+      "refs": [
+        "E08"
+      ],
+      "content": "Nonsignificant response-time result does not establish improvement or zero effect."
+    }
+  ],
+  "issues": [
+    {
+      "id": "G01",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "IN01"
+      ],
+      "affects": [
+        "D01",
+        "D06"
+      ],
+      "content": "Individual classification and reliability are unavailable.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "G02",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "IN02"
+      ],
+      "affects": [
+        "D02",
+        "D06"
+      ],
+      "content": "No calibrated individual contribution estimate.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "G03",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "O03"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "Message importance, tolerable loss and a defended precedence warrant are unavailable.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "G04",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "O05"
+      ],
+      "affects": [
+        "D06"
+      ],
+      "content": "Recovery effects and subsequent review workload are unavailable.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "O01",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "IN01"
+      ],
+      "affects": [
+        "D01",
+        "D04"
+      ],
+      "content": "Individual need is not established by high workload alone.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "O02",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "IN02"
+      ],
+      "affects": [
+        "D02",
+        "D04"
+      ],
+      "content": "Package-level effects do not isolate the diversion component.",
+      "decisive": false,
+      "status": "delimited",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "O03",
+      "version": "1",
+      "kind": "tension",
+      "refs": [
+        "r002",
+        "r003",
+        "P-A01"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "No defended warrant accepts the awareness loss for the accuracy benefit.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "O04",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "E06",
+        "E07",
+        "E08",
+        "E10"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "Small sample and missing outcomes limit inference and transfer.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    },
+    {
+      "id": "O05",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "E05"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "Recovery is described but its residual consequence is not characterized.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED",
+      "resolution_supported": false
+    }
+  ],
+  "priorities": [
+    {
+      "id": "P-A01",
+      "declared": true,
+      "applicable": true,
+      "precedence_documented": false,
+      "precedence_warrant": null,
+      "limits": "Document presence does not establish validity; directed response still required."
+    }
+  ],
+  "constraints": [],
+  "trace": [
+    {
+      "from": "C-ACCURACY",
+      "to": "E06",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-ACCURACY",
+      "to": "I-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-ACCURACY",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-ACCURACY",
+      "to": "Q-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-ACCURACY",
+      "to": "S-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-SA",
+      "to": "E07",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-SA",
+      "to": "I-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-SA",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-SA",
+      "to": "Q-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "C-SA",
+      "to": "S-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "COVERAGE",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "COVERAGE",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "E01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "E03",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "E04",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "E10",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "G01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "IN01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "N-A01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "O01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "S-A01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D01",
+      "to": "SRC-DORNEICH",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "E03",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "E05",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "E06",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "E10",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "G02",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "I-A01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "IN02",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "N-A01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "O02",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "S-A01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D02",
+      "to": "SRC-DORNEICH",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "C-ACCURACY",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "C-SA",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "COVERAGE",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "W-C4+",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D03",
+      "to": "W-C4-",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "G03",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "O01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "O02",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "O03",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "O04",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "O05",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "P-A01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "REVIEW-A",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "r002",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "r003",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D04",
+      "to": "r006",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D05",
+      "to": "COVERAGE",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "COVERAGE",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "G01",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "G02",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "G03",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "G04",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "O03",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "O04",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "D06",
+      "to": "O05",
+      "relation": "examines",
+      "target_version": "1"
+    },
+    {
+      "from": "E01",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E02",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E03",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E04",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E05",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E06",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E07",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E08",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E09",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "E10",
+      "to": "SRC-DORNEICH",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G01",
+      "to": "IN01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G01",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G02",
+      "to": "IN02",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G02",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G03",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G03",
+      "to": "O03",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G04",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "G04",
+      "to": "O05",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "I-A01",
+      "to": "E05",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN01",
+      "to": "E01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN01",
+      "to": "E03",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN01",
+      "to": "E04",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN01",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN01",
+      "to": "N-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN01",
+      "to": "S-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN02",
+      "to": "E05",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN02",
+      "to": "E06",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN02",
+      "to": "I-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN02",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN02",
+      "to": "N-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "IN02",
+      "to": "S-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "J-A01",
+      "to": "D01",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-A01",
+      "to": "D02",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-A01",
+      "to": "D03",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-A01",
+      "to": "D04",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-A01",
+      "to": "D05",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "J-A01",
+      "to": "D06",
+      "relation": "condition",
+      "target_version": "2.0"
+    },
+    {
+      "from": "O01",
+      "to": "IN01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O01",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O02",
+      "to": "IN02",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O02",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O03",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O03",
+      "to": "P-A01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O03",
+      "to": "r002",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O03",
+      "to": "r003",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O04",
+      "to": "E06",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O04",
+      "to": "E07",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O04",
+      "to": "E08",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O04",
+      "to": "E10",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O04",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O05",
+      "to": "E05",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "O05",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "P-A01",
+      "to": "E09",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "P-A01",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REVIEW-A",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REVIEW-A",
+      "to": "O01",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REVIEW-A",
+      "to": "O02",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REVIEW-A",
+      "to": "O03",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REVIEW-A",
+      "to": "O04",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "REVIEW-A",
+      "to": "O05",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "S-A01",
+      "to": "E03",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "S-A01",
+      "to": "E10",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "W-C4+",
+      "to": "C-ACCURACY",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "W-C4+",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "W-C4-",
+      "to": "C-SA",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "W-C4-",
+      "to": "M-CURATED",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "r002",
+      "to": "C-ACCURACY",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "r002",
+      "to": "W-C4+",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "r003",
+      "to": "C-SA",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "r003",
+      "to": "W-C4-",
+      "relation": "depends_on",
+      "target_version": "1"
+    },
+    {
+      "from": "r006",
+      "to": "E08",
+      "relation": "depends_on",
+      "target_version": "1"
+    }
+  ],
+  "snapshot": {
+    "input": {
+      "schema_version": "2.0",
+      "case_id": "A-01",
+      "origin": "documentary",
+      "criterion": "SC1.1",
+      "claim": {
+        "id": "J-A01",
+        "version": "1",
+        "level": "individual",
+        "need": "N-A01",
+        "candidate": "I-A01",
+        "context": "S-A01",
+        "reference": "Q-A01",
+        "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied.",
+        "content": "Justification of the candidate for an individual episode, reconstructed from contextual experimental findings.",
+        "level_decision": "Explicit iteration-1 choice: individual claim, retaining the documented contextual/individual ambiguity rather than silently generalizing.",
+        "coverage": "Known documented consequences, not exhaustive",
+        "actor": "Participant role; no individual record"
+      },
+      "nodes": [
+        {
+          "id": "E01",
+          "version": "1",
+          "kind": "evidence",
+          "content": "pp.6–8: EEG/ECG and a classifier estimate high/low workload; training uses tasks similar to the application tasks. p.14: individual calibration.",
+          "epistemic_description": "Mechanism described; no individual record recovered.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E02",
+          "version": "1",
+          "kind": "evidence",
+          "content": "p.7: the authors cite a 70–95% classification range from previous studies.",
+          "epistemic_description": "Background evidence; not a calibration of need or an accuracy estimate for the A-01 episode.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E03",
+          "version": "1",
+          "kind": "evidence",
+          "content": "pp.13–15: 2×2 within-subject design; high/low task load. High load: 8.7 messages/min and five tasks; low load: 3.8 and four.",
+          "epistemic_description": "Experimental design; task load is not individual cognitive workload.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E04",
+          "version": "1",
+          "kind": "evidence",
+          "content": "p.15: high load impaired manoeuvre tracking (p=.01) and increased five NASA-TLX indices.",
+          "epistemic_description": "Aggregate results; support for a risk of impairment in that scenario.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E05",
+          "version": "1",
+          "kind": "evidence",
+          "content": "pp.8–9: PDA text is less salient; messages are immediately available; withdrawal requires lower workload, accumulated message reading, and confirmation.",
+          "epistemic_description": "Mechanism and management conditions described by the source.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E06",
+          "version": "1",
+          "kind": "evidence",
+          "content": "p.16: available mitigation improves count accuracy (p=.02) and manoeuvre accuracy (p=.01) under high load.",
+          "epistemic_description": "Aggregate system comparison; not an isolated effect of a single component.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E07",
+          "version": "1",
+          "kind": "evidence",
+          "content": "pp.17–18: situational awareness 30%→0%, p=.04; data from 5/8 participants because of recording failures.",
+          "epistemic_description": "Observed cost; small sample and incomplete data.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E08",
+          "version": "1",
+          "kind": "evidence",
+          "content": "p.16: mathematics response time 8.6→3.8 s, nonsignificant difference; accuracy unaffected; 7/8 participants under high load.",
+          "epistemic_description": "Inference limit; neither a confirmed time benefit nor evidence of zero effect.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E09",
+          "version": "1",
+          "kind": "evidence",
+          "content": "pp.8–9,13–14: message priorities assigned by the designer; priority tasks have equal importance.",
+          "epistemic_description": "Documented origin of local priority; not universal authorization for compensation.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "E10",
+          "version": "1",
+          "kind": "evidence",
+          "content": "p.14: eight male volunteers without military experience. p.19: the authors interpret the balance as favourable during temporary overload.",
+          "epistemic_description": "Limits on transfer and interpretation, not a validated sufficiency standard.",
+          "source": "SRC-DORNEICH",
+          "dependency_group": "same-experiment",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "information_state": "available"
+        },
+        {
+          "id": "SRC-DORNEICH",
+          "kind": "source",
+          "version": "1",
+          "content": "Dorneich et al. (2012), Considering Etiquette in the Design of an Adaptive System. Extracts transcribed from the A-01 documentary dossier; original PDF not re-audited in this iteration."
+        },
+        {
+          "id": "N-A01",
+          "kind": "need",
+          "version": "1",
+          "content": "Support to preserve accuracy of priority tasks when incoming messages increase overload risk."
+        },
+        {
+          "id": "S-A01",
+          "kind": "context",
+          "version": "1",
+          "refs": [
+            "E03",
+            "E10"
+          ],
+          "content": "Published high task-load experimental context; no individual episode fabricated."
+        },
+        {
+          "id": "I-A01",
+          "kind": "intervention",
+          "version": "1",
+          "refs": [
+            "E05"
+          ],
+          "content": "Divert lower-priority mission messages to immediately accessible PDA text; retain high-priority radio messages; recovery remains part of the candidate."
+        },
+        {
+          "id": "Q-A01",
+          "kind": "reference",
+          "version": "1",
+          "content": "No mitigation under high task load."
+        },
+        {
+          "id": "IN01",
+          "kind": "inference",
+          "version": "1",
+          "refs": [
+            "E01",
+            "E03",
+            "E04",
+            "S-A01",
+            "N-A01"
+          ],
+          "target": "N-A01",
+          "scope": "contextual",
+          "method": "M-CURATED",
+          "content": "Reported workload mechanism and task impairment make contextual support need plausible; no measured individual need.",
+          "role": "need_support"
+        },
+        {
+          "id": "IN02",
+          "kind": "inference",
+          "version": "1",
+          "refs": [
+            "I-A01",
+            "E05",
+            "E06",
+            "N-A01",
+            "S-A01"
+          ],
+          "target": "N-A01",
+          "scope": "contextual",
+          "method": "M-CURATED",
+          "content": "Reduced competition for attention is a plausible contribution; reported effect belongs to the experimental package.",
+          "role": "candidate_contribution"
+        },
+        {
+          "id": "C-ACCURACY",
+          "kind": "consequence",
+          "version": "1",
+          "refs": [
+            "E06",
+            "I-A01",
+            "S-A01",
+            "Q-A01"
+          ],
+          "actor": "participant acting as leader",
+          "objective": "Accuracy of instructed priority tasks",
+          "scope": "contextual",
+          "content": "Improved count and manoeuvre accuracy under high load; package-level comparison.",
+          "method": "M-CURATED",
+          "information_state": "available",
+          "epistemic_status": "estimated",
+          "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied."
+        },
+        {
+          "id": "C-SA",
+          "kind": "consequence",
+          "version": "1",
+          "refs": [
+            "E07",
+            "I-A01",
+            "S-A01",
+            "Q-A01"
+          ],
+          "actor": "same participant",
+          "objective": "Maintain mission situational awareness",
+          "scope": "contextual",
+          "content": "Reduced secondary situational awareness; five of eight participants with usable data.",
+          "method": "M-CURATED",
+          "information_state": "available",
+          "epistemic_status": "estimated",
+          "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied."
+        },
+        {
+          "id": "W-C4+",
+          "kind": "relevance_warrant",
+          "version": "1",
+          "refs": [
+            "C-ACCURACY"
+          ],
+          "method": "M-CURATED",
+          "content": "Accuracy supports the instructed task objective locally; no absolute priority asserted.",
+          "scope": "contextual",
+          "direction": "supporting"
+        },
+        {
+          "id": "W-C4-",
+          "kind": "relevance_warrant",
+          "version": "1",
+          "refs": [
+            "C-SA"
+          ],
+          "method": "M-CURATED",
+          "content": "Loss of mission information impairs the awareness objective; lower priority does not remove relevance.",
+          "scope": "contextual",
+          "direction": "opposing"
+        },
+        {
+          "id": "r002",
+          "kind": "reason",
+          "version": "1",
+          "direction": "supporting",
+          "refs": [
+            "C-ACCURACY",
+            "W-C4+"
+          ],
+          "content": "A locally relevant accuracy benefit."
+        },
+        {
+          "id": "r003",
+          "kind": "reason",
+          "version": "1",
+          "direction": "opposing",
+          "refs": [
+            "C-SA",
+            "W-C4-"
+          ],
+          "content": "A locally relevant situational-awareness cost."
+        },
+        {
+          "id": "r006",
+          "kind": "reason",
+          "version": "1",
+          "direction": "limiting",
+          "refs": [
+            "E08"
+          ],
+          "content": "Nonsignificant response-time result does not establish improvement or zero effect."
+        },
+        {
+          "id": "P-A01",
+          "kind": "priority",
+          "version": "1",
+          "refs": [
+            "E09"
+          ],
+          "declared": true,
+          "applicable": true,
+          "precedence_warrant": null,
+          "content": "Designer-assigned local task/message priority; does not establish acceptance of any secondary cost.",
+          "method": "M-CURATED",
+          "scope": "contextual",
+          "holder": "Designer in published scenario",
+          "exceptions": "Published scenario only"
+        },
+        {
+          "id": "A-IN",
+          "kind": "assumption",
+          "version": "1",
+          "content": "IN01/IN02 and relevance warrants are explicit researcher reconstructions, not measured justification variables."
+        },
+        {
+          "id": "M-CURATED",
+          "kind": "method",
+          "version": "1",
+          "content": "Human-curated documentary reconstruction. Software checks relations, scope and supplied issue records; it does not infer the adequacy of substantive judgments."
+        },
+        {
+          "id": "COVERAGE",
+          "kind": "coverage",
+          "version": "1",
+          "refs": [
+            "SRC-DORNEICH"
+          ],
+          "content": "Known documented consequences only. No binding justification constraint adopted in reviewed passages; this is not universal absence.",
+          "method": "M-CURATED",
+          "constraint_search": "none_adopted",
+          "limitations_review": "documented"
+        },
+        {
+          "id": "O01",
+          "version": "1",
+          "kind": "objection",
+          "refs": [
+            "IN01"
+          ],
+          "affects": [
+            "D01",
+            "D04"
+          ],
+          "content": "Individual need is not established by high workload alone.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "O02",
+          "version": "1",
+          "kind": "objection",
+          "refs": [
+            "IN02"
+          ],
+          "affects": [
+            "D02",
+            "D04"
+          ],
+          "content": "Package-level effects do not isolate the diversion component.",
+          "decisive": false,
+          "status": "delimited",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "O03",
+          "version": "1",
+          "kind": "tension",
+          "refs": [
+            "r002",
+            "r003",
+            "P-A01"
+          ],
+          "affects": [
+            "D04",
+            "D06"
+          ],
+          "content": "No defended warrant accepts the awareness loss for the accuracy benefit.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "O04",
+          "version": "1",
+          "kind": "objection",
+          "refs": [
+            "E06",
+            "E07",
+            "E08",
+            "E10"
+          ],
+          "affects": [
+            "D04",
+            "D06"
+          ],
+          "content": "Small sample and missing outcomes limit inference and transfer.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "O05",
+          "version": "1",
+          "kind": "objection",
+          "refs": [
+            "E05"
+          ],
+          "affects": [
+            "D04",
+            "D06"
+          ],
+          "content": "Recovery is described but its residual consequence is not characterized.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "G01",
+          "version": "1",
+          "kind": "missing_information",
+          "refs": [
+            "IN01"
+          ],
+          "affects": [
+            "D01",
+            "D06"
+          ],
+          "content": "Individual classification and reliability are unavailable.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "G02",
+          "version": "1",
+          "kind": "missing_information",
+          "refs": [
+            "IN02"
+          ],
+          "affects": [
+            "D02",
+            "D06"
+          ],
+          "content": "No calibrated individual contribution estimate.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "G03",
+          "version": "1",
+          "kind": "missing_information",
+          "refs": [
+            "O03"
+          ],
+          "affects": [
+            "D04",
+            "D06"
+          ],
+          "content": "Message importance, tolerable loss and a defended precedence warrant are unavailable.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "G04",
+          "version": "1",
+          "kind": "missing_information",
+          "refs": [
+            "O05"
+          ],
+          "affects": [
+            "D06"
+          ],
+          "content": "Recovery effects and subsequent review workload are unavailable.",
+          "decisive": true,
+          "status": "open",
+          "judgment_method": "M-CURATED",
+          "method": "M-CURATED"
+        },
+        {
+          "id": "REVIEW-A",
+          "version": "1",
+          "kind": "review",
+          "content": "Opposition reconstructed as O01-O05 with documented limits.",
+          "refs": [
+            "O01",
+            "O02",
+            "O03",
+            "O04",
+            "O05"
+          ],
+          "role": "opposition_review",
+          "method": "M-CURATED"
+        }
+      ],
+      "constraints": [],
+      "opposition_pattern": null,
+      "disclosures": [
+        "No D01-D06 booleans supplied.",
+        "Reasons and substantive warrants are supplied as curated inputs, not autonomously generated.",
+        "Open/decisive issue labels are researcher judgments requiring external review.",
+        "No synthetic domain facts or operational actions introduced."
+      ]
+    },
+    "generated_objects": [],
+    "methods_used": [
+      {
+        "id": "M-CURATED",
+        "kind": "method",
+        "version": "1",
+        "content": "Human-curated documentary reconstruction. Software checks relations, scope and supplied issue records; it does not infer the adequacy of substantive judgments."
+      },
+      {
+        "id": "CURATED-RELATIONAL-RECONSTRUCTION-2.0",
+        "version": "2.0",
+        "content": "Implementation design operationalization, not a validated domain inference method."
+      }
+    ]
+  },
+  "limitations": [
+    "No D01-D06 booleans supplied.",
+    "Reasons and substantive warrants are supplied as curated inputs, not autonomously generated.",
+    "Open/decisive issue labels are researcher judgments requiring external review.",
+    "No synthetic domain facts or operational actions introduced.",
+    "Substantive warrants, relevance, criticality, accepted responses and plausible-alternative judgments are supplied by the researcher. Structural checks do not validate their adequacy.",
+    "No operational action is produced. Independent reconstruction and domain sufficiency remain to be examined."
+  ]
+}

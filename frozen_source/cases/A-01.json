@@ -1,0 +1,537 @@
+{
+  "schema_version": "2.0",
+  "case_id": "A-01",
+  "origin": "documentary",
+  "criterion": "SC1.1",
+  "claim": {
+    "id": "J-A01",
+    "version": "1",
+    "level": "individual",
+    "need": "N-A01",
+    "candidate": "I-A01",
+    "context": "S-A01",
+    "reference": "Q-A01",
+    "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied.",
+    "content": "Justification of the candidate for an individual episode, reconstructed from contextual experimental findings.",
+    "level_decision": "Explicit iteration-1 choice: individual claim, retaining the documented contextual/individual ambiguity rather than silently generalizing.",
+    "coverage": "Known documented consequences, not exhaustive",
+    "actor": "Participant role; no individual record"
+  },
+  "nodes": [
+    {
+      "id": "E01",
+      "version": "1",
+      "kind": "evidence",
+      "content": "pp.6–8: EEG/ECG and a classifier estimate high/low workload; training uses tasks similar to the application tasks. p.14: individual calibration.",
+      "epistemic_description": "Mechanism described; no individual record recovered.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E02",
+      "version": "1",
+      "kind": "evidence",
+      "content": "p.7: the authors cite a 70–95% classification range from previous studies.",
+      "epistemic_description": "Background evidence; not a calibration of need or an accuracy estimate for the A-01 episode.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E03",
+      "version": "1",
+      "kind": "evidence",
+      "content": "pp.13–15: 2×2 within-subject design; high/low task load. High load: 8.7 messages/min and five tasks; low load: 3.8 and four.",
+      "epistemic_description": "Experimental design; task load is not individual cognitive workload.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E04",
+      "version": "1",
+      "kind": "evidence",
+      "content": "p.15: high load impaired manoeuvre tracking (p=.01) and increased five NASA-TLX indices.",
+      "epistemic_description": "Aggregate results; support for a risk of impairment in that scenario.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E05",
+      "version": "1",
+      "kind": "evidence",
+      "content": "pp.8–9: PDA text is less salient; messages are immediately available; withdrawal requires lower workload, accumulated message reading, and confirmation.",
+      "epistemic_description": "Mechanism and management conditions described by the source.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E06",
+      "version": "1",
+      "kind": "evidence",
+      "content": "p.16: available mitigation improves count accuracy (p=.02) and manoeuvre accuracy (p=.01) under high load.",
+      "epistemic_description": "Aggregate system comparison; not an isolated effect of a single component.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E07",
+      "version": "1",
+      "kind": "evidence",
+      "content": "pp.17–18: situational awareness 30%→0%, p=.04; data from 5/8 participants because of recording failures.",
+      "epistemic_description": "Observed cost; small sample and incomplete data.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E08",
+      "version": "1",
+      "kind": "evidence",
+      "content": "p.16: mathematics response time 8.6→3.8 s, nonsignificant difference; accuracy unaffected; 7/8 participants under high load.",
+      "epistemic_description": "Inference limit; neither a confirmed time benefit nor evidence of zero effect.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E09",
+      "version": "1",
+      "kind": "evidence",
+      "content": "pp.8–9,13–14: message priorities assigned by the designer; priority tasks have equal importance.",
+      "epistemic_description": "Documented origin of local priority; not universal authorization for compensation.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "E10",
+      "version": "1",
+      "kind": "evidence",
+      "content": "p.14: eight male volunteers without military experience. p.19: the authors interpret the balance as favourable during temporary overload.",
+      "epistemic_description": "Limits on transfer and interpretation, not a validated sufficiency standard.",
+      "source": "SRC-DORNEICH",
+      "dependency_group": "same-experiment",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "information_state": "available"
+    },
+    {
+      "id": "SRC-DORNEICH",
+      "kind": "source",
+      "version": "1",
+      "content": "Dorneich et al. (2012), Considering Etiquette in the Design of an Adaptive System. Extracts transcribed from the A-01 documentary dossier; original PDF not re-audited in this iteration."
+    },
+    {
+      "id": "N-A01",
+      "kind": "need",
+      "version": "1",
+      "content": "Support to preserve accuracy of priority tasks when incoming messages increase overload risk."
+    },
+    {
+      "id": "S-A01",
+      "kind": "context",
+      "version": "1",
+      "refs": [
+        "E03",
+        "E10"
+      ],
+      "content": "Published high task-load experimental context; no individual episode fabricated."
+    },
+    {
+      "id": "I-A01",
+      "kind": "intervention",
+      "version": "1",
+      "refs": [
+        "E05"
+      ],
+      "content": "Divert lower-priority mission messages to immediately accessible PDA text; retain high-priority radio messages; recovery remains part of the candidate."
+    },
+    {
+      "id": "Q-A01",
+      "kind": "reference",
+      "version": "1",
+      "content": "No mitigation under high task load."
+    },
+    {
+      "id": "IN01",
+      "kind": "inference",
+      "version": "1",
+      "refs": [
+        "E01",
+        "E03",
+        "E04",
+        "S-A01",
+        "N-A01"
+      ],
+      "target": "N-A01",
+      "scope": "contextual",
+      "method": "M-CURATED",
+      "content": "Reported workload mechanism and task impairment make contextual support need plausible; no measured individual need.",
+      "role": "need_support"
+    },
+    {
+      "id": "IN02",
+      "kind": "inference",
+      "version": "1",
+      "refs": [
+        "I-A01",
+        "E05",
+        "E06",
+        "N-A01",
+        "S-A01"
+      ],
+      "target": "N-A01",
+      "scope": "contextual",
+      "method": "M-CURATED",
+      "content": "Reduced competition for attention is a plausible contribution; reported effect belongs to the experimental package.",
+      "role": "candidate_contribution"
+    },
+    {
+      "id": "C-ACCURACY",
+      "kind": "consequence",
+      "version": "1",
+      "refs": [
+        "E06",
+        "I-A01",
+        "S-A01",
+        "Q-A01"
+      ],
+      "actor": "participant acting as leader",
+      "objective": "Accuracy of instructed priority tasks",
+      "scope": "contextual",
+      "content": "Improved count and manoeuvre accuracy under high load; package-level comparison.",
+      "method": "M-CURATED",
+      "information_state": "available",
+      "epistemic_status": "estimated",
+      "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied."
+    },
+    {
+      "id": "C-SA",
+      "kind": "consequence",
+      "version": "1",
+      "refs": [
+        "E07",
+        "I-A01",
+        "S-A01",
+        "Q-A01"
+      ],
+      "actor": "same participant",
+      "objective": "Maintain mission situational awareness",
+      "scope": "contextual",
+      "content": "Reduced secondary situational awareness; five of eight participants with usable data.",
+      "method": "M-CURATED",
+      "information_state": "available",
+      "epistemic_status": "estimated",
+      "horizon": "Mitigation episode and subsequent message recovery; no numeric horizon supplied."
+    },
+    {
+      "id": "W-C4+",
+      "kind": "relevance_warrant",
+      "version": "1",
+      "refs": [
+        "C-ACCURACY"
+      ],
+      "method": "M-CURATED",
+      "content": "Accuracy supports the instructed task objective locally; no absolute priority asserted.",
+      "scope": "contextual",
+      "direction": "supporting"
+    },
+    {
+      "id": "W-C4-",
+      "kind": "relevance_warrant",
+      "version": "1",
+      "refs": [
+        "C-SA"
+      ],
+      "method": "M-CURATED",
+      "content": "Loss of mission information impairs the awareness objective; lower priority does not remove relevance.",
+      "scope": "contextual",
+      "direction": "opposing"
+    },
+    {
+      "id": "r002",
+      "kind": "reason",
+      "version": "1",
+      "direction": "supporting",
+      "refs": [
+        "C-ACCURACY",
+        "W-C4+"
+      ],
+      "content": "A locally relevant accuracy benefit."
+    },
+    {
+      "id": "r003",
+      "kind": "reason",
+      "version": "1",
+      "direction": "opposing",
+      "refs": [
+        "C-SA",
+        "W-C4-"
+      ],
+      "content": "A locally relevant situational-awareness cost."
+    },
+    {
+      "id": "r006",
+      "kind": "reason",
+      "version": "1",
+      "direction": "limiting",
+      "refs": [
+        "E08"
+      ],
+      "content": "Nonsignificant response-time result does not establish improvement or zero effect."
+    },
+    {
+      "id": "P-A01",
+      "kind": "priority",
+      "version": "1",
+      "refs": [
+        "E09"
+      ],
+      "declared": true,
+      "applicable": true,
+      "precedence_warrant": null,
+      "content": "Designer-assigned local task/message priority; does not establish acceptance of any secondary cost.",
+      "method": "M-CURATED",
+      "scope": "contextual",
+      "holder": "Designer in published scenario",
+      "exceptions": "Published scenario only"
+    },
+    {
+      "id": "A-IN",
+      "kind": "assumption",
+      "version": "1",
+      "content": "IN01/IN02 and relevance warrants are explicit researcher reconstructions, not measured justification variables."
+    },
+    {
+      "id": "M-CURATED",
+      "kind": "method",
+      "version": "1",
+      "content": "Human-curated documentary reconstruction. Software checks relations, scope and supplied issue records; it does not infer the adequacy of substantive judgments."
+    },
+    {
+      "id": "COVERAGE",
+      "kind": "coverage",
+      "version": "1",
+      "refs": [
+        "SRC-DORNEICH"
+      ],
+      "content": "Known documented consequences only. No binding justification constraint adopted in reviewed passages; this is not universal absence.",
+      "method": "M-CURATED",
+      "constraint_search": "none_adopted",
+      "limitations_review": "documented"
+    },
+    {
+      "id": "O01",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "IN01"
+      ],
+      "affects": [
+        "D01",
+        "D04"
+      ],
+      "content": "Individual need is not established by high workload alone.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "O02",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "IN02"
+      ],
+      "affects": [
+        "D02",
+        "D04"
+      ],
+      "content": "Package-level effects do not isolate the diversion component.",
+      "decisive": false,
+      "status": "delimited",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "O03",
+      "version": "1",
+      "kind": "tension",
+      "refs": [
+        "r002",
+        "r003",
+        "P-A01"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "No defended warrant accepts the awareness loss for the accuracy benefit.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "O04",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "E06",
+        "E07",
+        "E08",
+        "E10"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "Small sample and missing outcomes limit inference and transfer.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "O05",
+      "version": "1",
+      "kind": "objection",
+      "refs": [
+        "E05"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "Recovery is described but its residual consequence is not characterized.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "G01",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "IN01"
+      ],
+      "affects": [
+        "D01",
+        "D06"
+      ],
+      "content": "Individual classification and reliability are unavailable.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "G02",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "IN02"
+      ],
+      "affects": [
+        "D02",
+        "D06"
+      ],
+      "content": "No calibrated individual contribution estimate.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "G03",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "O03"
+      ],
+      "affects": [
+        "D04",
+        "D06"
+      ],
+      "content": "Message importance, tolerable loss and a defended precedence warrant are unavailable.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "G04",
+      "version": "1",
+      "kind": "missing_information",
+      "refs": [
+        "O05"
+      ],
+      "affects": [
+        "D06"
+      ],
+      "content": "Recovery effects and subsequent review workload are unavailable.",
+      "decisive": true,
+      "status": "open",
+      "judgment_method": "M-CURATED",
+      "method": "M-CURATED"
+    },
+    {
+      "id": "REVIEW-A",
+      "version": "1",
+      "kind": "review",
+      "content": "Opposition reconstructed as O01-O05 with documented limits.",
+      "refs": [
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "role": "opposition_review",
+      "method": "M-CURATED"
+    }
+  ],
+  "constraints": [],
+  "opposition_pattern": null,
+  "disclosures": [
+    "No D01-D06 booleans supplied.",
+    "Reasons and substantive warrants are supplied as curated inputs, not autonomously generated.",
+    "Open/decisive issue labels are researcher judgments requiring external review.",
+    "No synthetic domain facts or operational actions introduced."
+  ]
+}

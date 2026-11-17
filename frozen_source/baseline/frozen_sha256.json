@@ -1,0 +1,17 @@
+{
+  "baseline/evaluation_matrix.csv": "c0cfad554b8cb6e801e10e1700baa941131ec8207ca3c436f5d0e665c78a776a",
+  "baseline/evaluation_matrix.json": "7b98af82b90e40d949199e3d541da8ecb3b3d21dff65d88f893a05f5d53fc2d2",
+  "cases/A-01.json": "f7498c1390d6e02b9866324bcf4719df4ea71c6ac163774f3d85b70abe51c2f6",
+  "cases/B-00.json": "3242addee93799d96aa8090674d16efddb9887bde3bade3f525d846d81b9e83a",
+  "cases/M-01.json": "ff124aee66a373a7208ca377867aa582f91e2e599fd027528db936f6fa78b50f",
+  "cases/O-01.json": "203f5db057e410afd6db040c415e5ea6b990cd4be8f168b07e96790555557ba6",
+  "cases/O-02.json": "072abcb3eea0ffb6055c55c4bb33404679b3dd1583fae030bf0a118ee7b5faa8",
+  "cases/P-01.json": "62a693c2c0e48abd5d47f40306b755df22487830eadde21223f9550bf9bd2842",
+  "cases/P-02.json": "b0cfebc7e5b58869ffaaa06b2685bf93f01ab998282a1024c1c0743593c6263c",
+  "cases/R-01.json": "cab4fdd802eb4f624ae3b9f5cb3c372fdfc8b1857720400e975dd5616f254a8a",
+  "cases/R-02.json": "9676c9ff575a911b9ae635a918d8cc81230baead4a054596bf15362a8588d3c9",
+  "cases/S-01.json": "24e1664b00f248a7a097c2ba22198df80584f0d9d5b731a28f94e2c5e726f4c7",
+  "cases/S-02.json": "19d1eaa5af6a14c19372336a7bb4268f31edaaa07cf1f85fd22053f73fc64e97",
+  "cases/U-01.json": "3b4f2b7796b991fddd56583cc2743922797c97cbf67bb611ef7611e660456548",
+  "cases/U-02.json": "fc0adf40c82052a2f969bde0ebd5057137d9e13d7c258e5a32e1f4bd6a0614dd"
+}
